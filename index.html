@@ -1,11 +1,497 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" </head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/main-style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
 </head>
-<body>
-    
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+    <!-- navbar section -->
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="logo" class="img-fluid">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                    <ul class="navbar-nav menu_navbar_nav m-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#story">Our Story</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#work">Explore Our Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#office">Office Speces</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#clients">Clients</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#help">How We Can Help</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#talk">Let's Talk</a>
+                        </li>
+                    </ul>
+                    <div class="get_started d-lg-block d-md-none">
+                        <button class="main_btn">Get Started</button>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <!-- Navbar section exit -->
+
+    <!-- Banner section -->
+    <section id="banner" class="banner_wrapper">
+        <div class="container rounded-5">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 d-flex justify-content-center p-5 align-items-center">
+                    <div class="left">
+                        <h1>Adaptive Managed Coworkspaces Tailored For You!</h1>
+                        <p>All set to redefine how your team works? Tap into our adaptive Goflex coworking solutions
+                            that turn traditional offices into dynamic, personalized spaces. Enjoy financial
+                            flexibility, precise access management and up-to-the-minute insights into workspace usage.
+                        </p>
+                        <button class="main_btn">How Can We Help You?</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 p-5">
+                    <div class="right">
+                        <div class="row">
+                            <div class="col-sm-6 m-0 p-2">
+                                <img src="images/home-1.png" alt="" class="img-fluid rounded w-100">
+                            </div>
+                            <div class="col-sm-6 m-0 p-2">
+                                <img src="images/home2.png" alt="" class="img-fluid rounded w-100">
+                            </div>
+                            <div class="col-sm-6 m-0 p-2">
+                                <img src="images/home-3.png" alt="" class="img-fluid rounded w-100">
+                            </div>
+                            <div class="col-sm-6 m-0 p-2">
+                                <img src="images/home4.png" alt="" class="img-fluid rounded w-100">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner section exit -->
+
+    <!-- Service section -->
+    <section class="service_wrapper" id="service">
+        <div class="container">
+            <div class="content_wrapper">
+                <span class="title">What Sets Us Apart?</span>
+                <h2>Flexible Worklife Needs Flexible Workspace!</h2>
+                <div class="row align-items-center">
+                    <div class="col-md-12 col-lg-4 mb-3">
+                        <div class="card_content card-one rounded-4 p-3">
+                            <div class="image d-flex justify-content-start align-items-center mb-3">
+                                <img src="images/img1 (1).png" alt="service" class="img-fluid">
+                                <h3 class="ms-2">Open Lease Freedom</h3>
+                            </div>
+                            <p>Flexibility is key to modern business success. That's why we offer Open Lease terms.
+                                Whether you need to upscale or downsize, our flexible lease terms will perfectly align
+                                with your needs</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-4 mb-3">
+                        <div class="card_content card-two rounded-4 p-3">
+                            <div class="image d-flex justify-content-start align-items-center mb-3">
+                                <img src="images/clock.png" alt="service" class="img-fluid">
+                                <h3 class="ms-2">24*7 Accessibility</h3>
+                            </div>
+                            <p>Business doesn't always happen from 9 to 5. That's why we provide 24*7 accessibility to
+                                your workspace. Whether you're an early bird or a night owl, our facilities are
+                                available per you needs.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-4 mb-3">
+                        <div class="card_content card-three rounded-4 p-3">
+                            <div class="image d-flex justify-content-start align-items-center mb-3">
+                                <img src="images/chart.png" alt="service" class="img-fluid">
+                                <h3 class="ms-2">Workspace that Grows With You</h3>
+                            </div>
+                            <p>Our adaptable workspaces can be customized to accommodate your changing needs. Whether
+                                you're expanding your team or easing out operations, our spaces will suit your
+                                requirements.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Service section exit -->
+
+    <!-- location section -->
+    <section class="location_wrapper" id="wrapper">
+        <div class="container">
+            <div class="content_wrapper">
+                <span class="title">Location</span>
+                <h2>Your Flexible Workspace Has a New Address!</h2>
+                <div class="row align-items-center">
+                    <div class="col-md-12 col-lg-4 mb-3">
+                        <div class="card_content card-one rounded-4 p-3">
+                            <div class="image d-flex justify-content-start align-items-center mb-3">
+                                <img src="images/location.png" alt="location" class="img-fluid">
+                                <h3 class="ms-2">Prime Location</h3>
+                            </div>
+                            <p>Nestled in the heart of the thriving Golf Course Extension Road, our workspace enjoys a
+                                premium location. This strategic address ensures easy accessibility, proximity to key
+                                business hubs, and a dynamic environment.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-4 mb-3">
+                        <div class="card_content card-two rounded-4 p-3">
+                            <div class="image d-flex justify-content-start align-items-center mb-3">
+                                <img src="images/building.png" alt="location" class="img-fluid">
+                                <h3 class="ms-2">Expert Architects
+                                </h3>
+                            </div>
+                            <p>The Ireo Grand Tower project bears the signature of Foster and Partners, while our GoFlex
+                                workspaces are curated by a team of distinguished and expert creators, achieving a rich
+                                blend of aesthetics, functionality, and sustainability.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-4 mb-3">
+                        <div class="card_content card-three rounded-4 p-3">
+                            <div class="image d-flex justify-content-start align-items-center mb-3">
+                                <img src="images/medal.png" alt="location" class="img-fluid">
+                                <h3 class="ms-2">Cutting-edge Amenities</h3>
+                            </div>
+                            <p>GoFlex Premium Workspaces go beyond the aesthetics and location, GoFlex Premium
+                                Workspaces offer a myriad of cutting-edge amenities and services that elevate your
+                                workplace experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- location section exit -->
+
+    <!-- section solutions -->
+    <section class="solutions_wrapper" id="solutions">
+        <div class="container rounded-4 p-md-3 p-lg-5">
+            <div class="row">
+                <div class="col-md-12 col-lg-6 mb-5">
+                    <div class="mb-3">
+                        <img class="img-thumbnail w-100 h-100 rounded-4" src="images/solution.png" alt="solution"
+                            class="img-fluid">
+                    </div>
+                    <h4>Wish to experience our Solutions?</h4>
+                    <button class="main_btn">How Can We Help You ?</button>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <div class="right">
+                        <span class="title">Solutions</span>
+                        <h2>Share Your Workspace Needs, We'll Deliver the Perfect Solution!</h2>
+                        <div class="steps_content d-flex justify-content-start mb-3">
+                            <span class="steps">1</span>
+                            <div class="step_title ms-3">
+                                <h3 class="">Private Business Suites:</h3>
+                                <p class="">Tailored for teams of 10 or more, our custom suites offer flexible
+                                    seating
+                                    arrangements,
+                                    private cabins, and workstations designed to meet your specific needs.</p>
+                            </div>
+                        </div>
+
+                        <div class="steps_content d-flex justify-content-start mb-3">
+                            <span class="steps">2</span>
+                            <div class="step_title ms-3">
+                                <h3 class="">Meeting and Conference Rooms:</h3>
+                                <p class="">
+                                    Host productive gatherings in our well-equipped meeting and conference rooms. Want
+                                    to use our advanced rooms for a single day? Well, you can get that too!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="steps_content d-flex justify-content-start mb-3">
+                        <span class="steps">3</span>
+                        <div class="step_title ms-3">
+                            <h3 class="">Hot Desks:</h3>
+                            <p class="">
+                                Feel the flexibility of hot desking, now with a minimum of 10 seats to accommodate
+                                larger teams. Take advantage of our free trial offer to explore Hot Desk services.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="steps_content d-flex justify-content-start mb-3">
+                        <span class="steps">4</span>
+                        <div class="step_title ms-3">
+                            <h3 class="">Ergonomic Workstations:</h3>
+                            <p class="">
+                                Our large workstations are thoughtfully designed with scientific space ergonomics to
+                                enhance comfort and productivity, providing an optimal work environment. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section solutions exit -->
+
+    <!-- gallery section -->
+    <section class="gallery_wrapper" id="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-6">
+                    <div class="gallery_content">
+                        <span class="title">Gallery</span>
+                        <h2 class="mb-3">Sneak Peek into Our Designed-to-Perfection Adaptive Coworkspaces</h2>
+                        <p class="">A visual journey through our meticulously crafted adaptive workspaces each
+                            thoughtfully
+                            designed to inspire productivity and innovation.</p>
+                        <button class="main_btn mb-3">See More Of What We Do</button>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <div class="images_content">
+                        <div class="row position-relative" id="slider">
+                            <div class="col-md-6 px-2">
+                                <img src="images/home4.png" alt="gallery" class="img-fluid">
+                            </div>
+                            <div class="col-md-6 px-2">
+                                <img src="images/home4.png" alt="gallery" class="img-fluid">
+                            </div>
+                            <div class="col-md-6 px-2">
+                                <img src="images/home4.png" alt="gallery" class="img-fluid">
+                            </div>
+                            <div class="col-md-6 px-2">
+                                <img src="images/home4.png" alt="gallery" class="img-fluid">
+                            </div>
+                            <div class="col-md-6 px-2">
+                                <img src="images/home4.png" alt="gallery" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- gallery section exit -->
+
+    <!-- client section -->
+    <section class="client_wrapper" id="client">
+        <div class="container">
+            <div class="client_content mb-5">
+                <h2 class="mb-3">“We Asked. You Delivered.”</h2>
+                <h3 class="ms-3">Nope! We are not saying, Our Clients Are.</h3>
+            </div>
+            <div class="row gap-4 m-auto">
+                <div class="card col-lg-4 col-md-6 col-sm-12 mb-3 border rounded-3 p-4">
+                    <div class="card_wrapper">
+                        <div class="image d-flex justify-content-start align-items-center mb-3">
+                            <img src="images/client.png" alt="client" class="img-fluid rounded-pill">
+                            <h3 class="ms-2">Kumar Arav</h3>
+                        </div>
+                        <p>"I cannot emphasize enough how impressed I am with GoFlex's 3-tier security system. Knowing
+                            that my workspace is monitored and protected 24/7 allows me, Aarav Sharma, to focus solely
+                            on my work. It's not just a convenience; it's a peace of mind that's truly invaluable."</p>
+                        <div class="border border-0 border-bottom d-block border-opacity-10 my-3"></div>
+                        <div class="rate d-flex justify-content-between align-items-center">
+                            <span class="date">9 August 2020</span>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-lg-4 col-md-6 col-sm-12 mb-3  border rounded-3 p-4">
+                    <div class="card_wrapper">
+                        <div class="image d-flex justify-content-start align-items-center mb-3">
+                            <img src="images/client.png" alt="client" class="img-fluid rounded-pill">
+                            <h3 class="ms-2">Kumar Arav</h3>
+                        </div>
+                        <p>"I cannot emphasize enough how impressed I am with GoFlex's 3-tier security system. Knowing
+                            that my workspace is monitored and protected 24/7 allows me, Aarav Sharma, to focus solely
+                            on my work. It's not just a convenience; it's a peace of mind that's truly invaluable."</p>
+                        <div class="border border-0 border-bottom d-block border-opacity-10 my-3"></div>
+                        <div class="rate d-flex justify-content-between align-items-center">
+                            <span class="date">9 August 2020</span>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-lg-4 col-md-6 col-sm-12 mb-3  border rounded-3 p-4">
+                    <div class="card_wrapper">
+                        <div class="image d-flex justify-content-start align-items-center mb-3">
+                            <img src="images/client.png" alt="client" class="img-fluid rounded-pill">
+                            <h3 class="ms-2">Kumar Arav</h3>
+                        </div>
+                        <p>"I cannot emphasize enough how impressed I am with GoFlex's 3-tier security system. Knowing
+                            that my workspace is monitored and protected 24/7 allows me, Aarav Sharma, to focus solely
+                            on my work. It's not just a convenience; it's a peace of mind that's truly invaluable."</p>
+                        <div class="border border-0 border-bottom d-block border-opacity-10 my-3"></div>
+                        <div class="rate d-flex justify-content-between align-items-center">
+                            <span class="date">9 August 2020</span>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- client section exit -->
+
+    <!-- resources section -->
+    <section class="resources_wrapper" id="resources">
+        <div class="container">
+            <div class="resources_content">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 p-5">
+                        <div class="image">
+                            <img src="images/resources.png" alt="resources" class="img-fluid rounded-3">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <span class="title">Resources</span>
+                        <h2 class="mb-3">How to Choose a Managed Coworking Space?</h2>
+                        <div class="time mb-4">
+                            November 17, 2022
+                            <span class="ms-5">2 min read</span>
+                        </div>
+                        <p>In recent years, the traditional office environment has undergone a significant
+                            transformation, thanks to the rise of coworking spaces. Coworking spaces offer a flexible
+                            and dynamic work environment that appeals to freelancers, startups, small businesses, and
+                            even some larger corporations.</p>
+                        <button class="main_btn">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- resources section exit -->
+
+    <!-- footer menu section -->
+    <span class="d-block border border-0 border-bottom"></span>
+    <section class="footer_menu_wrapper mb-0" id="footer_menu">
+        <div class="container">
+            <div class="footer_menu_content">
+                <div class="row">
+                    <div class="logo col-md-12 col-lg-4 mb-lg-0 mb-3">
+                        <div class="logo">
+                            <img src="images/logo.png" alt="">
+                            <p>Office No. 10A, 10th Floor, Grand View Tower, Golf Course Ext. Road, Sector 58, Gurgaon
+                                122011</p>
+                        </div>
+                    </div>
+                    <div class="menu_items mb-lg-0 mb-3 col-md-6 col-lg-4 d-flex justify-content-between">
+                        <div class="menu_1">
+                            <h3>About Us</h3>
+                            <ul class="list-unstyled">
+                                <li> <a href="#">Our Story</a></li>
+                                <li><a href="#">Our Team</a></li>
+                                <li><a href="#">Testimonials</a></li>
+                            </ul>
+                        </div>
+                        <div class="menu_2">
+                            <h3>Resources</h3>
+                            <ul class="list-unstyled">
+                                <li> <a href="#">Project Management</a></li>
+                                <li><a href="#">Solutions</a></li>
+                                <li><a href="#">Support</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="contact_us col-md-12 col-lg-4 mb-3 mb-lg-0">
+                        <h3>Contact Us</h3>
+                        <ul class="list-unstyled">
+                            <li><i class="fa-solid fa-envelope"></i><a
+                                    href="mailto:enquiry@goflexoffices.com">enquiry@goflexoffices.com</a>
+                            <li><i class="fa-solid fa-phone"></i><a href="tel:+919811226283">+91 9811226283</a></li>
+                            <li><i class="fa-solid fa-phone"></i><a href="tel:+917840001269">+91 7840001269</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <span class="d-block border"></span>
+                <div class="second_footer py-3">
+                    <div class="row ">
+                        <div class="col-lg-6 col-sm-12 text-lg-end text-center">
+                            <div class="left_">
+                                <a href="#">Privacy policy</a>
+                                <a href="#">Terms of service</a>
+                                <a href="#">Sitemap</a>
+                                <a href="#">Documents</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12 text-lg-end text-center">
+                            ©Go Flex Official 2023. All right reversed.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer menu section exit -->
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#slider').slick({
+                infinite: true,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                autoplaySpeed: 2000,
+                arrows: true,
+                prevArrow: '<div class="slick-prev"><i class="fa fs-4 fa-angle-left" aria-hidden="true"></i></div>',
+                nextArrow: '<div class="slick-next"><i class="fa fs-4 fa-angle-right" aria-hidden="true"></i></div>'
+
+            });
+        });
+    </script>
 </body>
+
 </html>

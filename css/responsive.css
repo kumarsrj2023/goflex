@@ -1,0 +1,15 @@
+@media (max-width:991px) {
+
+    /* client section */
+    .client_wrapper .card {
+        width: 48%;
+    }
+}
+
+@media (max-width:768px) {
+
+    /* client section */
+    .client_wrapper .card {
+        width: 100%;
+    }
+}
